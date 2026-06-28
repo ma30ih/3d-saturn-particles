@@ -40,6 +40,27 @@ Hold your hand in front of the camera to interact with the 3D physics engine:
 * **شاهکار پروژه (سیاره زحل):** با مشت کردن دست، یک سیاره غول‌پیکر با کمربند سیارکی سه‌بعدی ساخته می‌شود که دارای عمق (Z-sorting) و پرسپکتیو است.
 * **حریم خصوصی:** تمام پردازش‌های هوش مصنوعی مستقیماً روی مرورگر (لوکال) انجام می‌شود و هیچ ویدیویی ذخیره یا به سروری ارسال نمی‌گردد.
 
+---
+
+## 🔬 Technical Breakdown / تشریح فنی پروژه
+
+### 🇬🇧 English Description
+This project is built from scratch without relying on heavy 3D frameworks like Three.js. It demonstrates core computer graphics and engine architecture principles:
+
+* **Custom 3D Projection Pipeline:** Translates 3D space coordinates $(X, Y, Z)$ into a 2D screen viewport using perspective divide and matrix transformation mathematics.
+* **Z-Sorting Engine:** Implements a manual depth-buffering algorithm to sort particles based on their distance from the virtual camera. This prevents visual artifacts and ensures the Saturn rings render correctly behind and in front of the planet.
+* **On-Device Computer Vision:** Utilizes Google MediaPipe for real-time, low-latency hand landmark tracking. The gesture analysis runs entirely inside the client's browser, maintaining absolute data privacy.
+
+### 🇮🇷 توضیحات فارسی
+این پروژه به صورت کامل از صفر (Vanilla JS) و بدون وابستگی به فریم‌ورک‌های سنگین سه‌بعدی مانند Three.js توسعه یافته است و اصول پایه گرافیک کامپیوتری را به نمایش می‌گذارد:
+
+* **خط‌لوله پرسپکتیو و پایپ‌لاین سه‌بعدی:** تبدیل مختصات فضای سه‌بعدی $(X, Y, Z)$ به صفحات دوبعدی مانیتور با استفاده از محاسبات ماتریسی و پرسپکتیو مپینگ.
+* **موتور دست‌ساز Z-Sorting:** پیاده‌سازی الگوریتم مرتب‌سازی عمق ذرات بر اساس فاصله از دوربین مجازی؛ این ساختار مانع از تداخل بصری شده و رندر صحیح لایه‌های جلو و عقب کمربند سیارکی زحل را تضمین می‌کند.
+* **بینایی ماشین در لبه (On-Device AI):** استفاده از هوش مصنوعی MediaPipe برای ترکینگ آنی و بدون تاخیر دست، به طوری که تمام پردازش‌ها درون مرورگر کاربر انجام شده و امنیت داده‌ها حفظ می‌شود.
+
+---
+
+
 ## 🛠️ Tech Stack
 * HTML5 / CSS3
 * Vanilla JavaScript & Math Physics (Z-sorting, Projection)
