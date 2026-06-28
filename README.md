@@ -1,5 +1,3 @@
-# 🌌 3D Holographic Saturn & Particles
-
 <div align="center">
 
 ![JavaScript](https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -10,12 +8,15 @@
 # 🌌 3D Holographic Saturn & Particles
 
 <p align="center">
-  <b>یک موتور رندر سه‌بعدی ریاضیاتی و تعاملی بر پایه هوش مصنوعی و ترکینگ دست</b>
+  <b>An interactive 3D math-physics engine powered by AI hand tracking and gesture recognition.</b>
+  <br />
+  <b>یک موتور رندر سه‌بعدی ریاضیاتی و تعاملی بر پایه هوش مصنوعی و تشخیص حرکات دست.</b>
 </p>
 
 </div>
 
 ---
+
 
 
 ![Magic Particle Fingers Demo](demo.gif)
