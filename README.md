@@ -33,5 +33,5 @@ To run this project locally, use a local server (due to browser security restric
 * **Python:** Run `python -m http.server` in your terminal.
 
 ## 📫 Get In Touch
+I'm an independent game developer and tech enthusiast. Whether it's discussing Unreal Engine 5.7 mechanics, collaborating on new business ventures, or just geeking out over hardware and code, I'd love to connect!
 * **Email:** msyhan85@gmail.com
-* 
